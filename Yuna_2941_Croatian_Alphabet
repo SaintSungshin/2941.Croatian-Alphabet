@@ -7,13 +7,13 @@ int main()
 	const int NUMBER = 100;
 	char text[100];
 
-	//ÀÔ·ÂÇĞ ¾ËÆÄºª text¿¡¼­ ¹Ş±â
+	//ì…ë ¥í•™ ì•ŒíŒŒë²³ textì—ì„œ ë°›ê¸°
 	
 	cout << "Enter the alphabet : " << endl;
 	int i = 0;
 	while (i < NUMBER) {
 		cin >> text[i];
-		if (text[i] == '0')	//0À» ÀÔ·Â¹ŞÀ¸¸é ¹İº¹¹® ±×¸¸µ¹±â
+		if (text[i] == '0')	//0ì„ ì…ë ¥ë°›ìœ¼ë©´ ë°˜ë³µë¬¸ ê·¸ë§ŒëŒê¸°
 			break;
 		
 		i++;
@@ -34,7 +34,7 @@ int main()
 			count++;
 	}
 
-	cout << "¾ËÆÄºªÀÇ °¹¼ö : " << count-1 << endl;	//0Ä£°Í °¹¼ö¿¡¼­ »©±â
+	cout << "ì•ŒíŒŒë²³ì˜ ê°¯ìˆ˜ : " << count-1 << endl;	//0ì¹œê²ƒ ê°¯ìˆ˜ì—ì„œ ë¹¼ê¸°
 
 	return 0;
 }
